@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruthvi Patel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <header class="header animate__animated animate__fadeInDown">
+        <div class="header-animation">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <!-- ...repeat for more bubbles... -->
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="header-content">
+            <div class="header-text">
+                <div class="name-container">
+                    <span class="line"></span>
+                    <h1 id="typewriter"></h1>
+                    <span class="line"></span>
+                </div>
+                <p>Software Developer</p>
+                <p>Open To Relocate</p>
+                <div class="contact-details">
+                    <a class="email" href="mailto:patel5pu@mail.uc.edu"><i class="fas fa-envelope"></i> patel5pu@mail.uc.edu</a>
+                    <a class="phone" href="tel:+15138373016"><i class="fas fa-phone"></i> (513) 837-3016</a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/pruthvipatel67/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#summary" class="nav-item"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="#education" class="nav-item"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#skills" class="nav-item"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#achievements" class="nav-item"><i class="fas fa-trophy"></i> Achievements</a></li>
+                <li><a href="#experience" class="nav-item"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#projects" class="nav-item"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#leadership" class="nav-item"><i class="fas fa-users"></i> Leadership</a></li>
+                <li><a href="#github" class="nav-item"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="summary" class="animate__animated animate__fadeInUp" style="background: linear-gradient(to right, #e0eafc, #cfdef3); padding: 2rem; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+        <h2 style="text-align: center; color: #0056b3; font-family: 'Montserrat', sans-serif;"><i class="fas fa-user"></i> About Me</h2>
+        <div class="about-me" style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+            <div class="profile-card" style="text-align: center; border: 2px solid #007bff; padding: 1rem; border-radius: 10px; background-color: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                <img src="img/profile1.jpg" alt="Profile Picture" class="profile-picture" style="width: 150px; height: 150px; border-radius: 50%; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
+                <h3 style="font-family: 'Montserrat', sans-serif; color: #007bff; margin-top: 1rem;">Pruthvi Patel</h3>
+                <p style="font-style: italic; color: #007bff;">"Innovation distinguishes between a leader and a follower." – Steve Jobs</p>
+            </div>
+            <div class="about-me-text" style="max-width: 800px; background-color: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; font-family: 'Montserrat', sans-serif;"><i class="fas fa-user-tie" style="color: #007bff;"></i> Profile</h3>
+                <p style="margin-bottom: 1rem;">I am <b>Pruthvi Patel</b>, a passionate and forward-thinking software developer with a fervent ambition to innovate and excel. My journey in technology is driven by a relentless curiosity and a commitment to making a substantial difference. With over 5 years of experience, I've crafted innovative solutions for complex challenges, always pushing the boundaries of my technical expertise.</p>
+                
+                <div class="separator" style="height: 2px; background: #007bff; margin: 1.5rem 0;"></div>
+                
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; font-family: 'Montserrat', sans-serif;"><i class="fas fa-lightbulb" style="color: #007bff;"></i> About Me</h3>
+                <p style="margin-bottom: 1rem;">Ever since I can remember, technology has been my playground. From building my first website to developing cutting-edge applications, my journey has been fueled by a blend of creativity and analytical thinking. I graduated with a <b>Bachelor of Science in Information Technology</b>, honing my skills across various programming languages and frameworks. My goal is to leverage this expertise to build impactful software that enhances user experiences and drives business success.</p>
+                <p style="margin-bottom: 1rem;">I'm a dedicated professional who thrives in dynamic, fast-paced environments. Whether leading a team to develop an innovative app or collaborating on complex projects, I bring enthusiasm, expertise, and a relentless drive to succeed. My philosophy is simple: every challenge is an opportunity to learn, grow, and make a difference.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="education">
+            <div class="education-item">
+                <h3>University of Cincinnati, Ohio</h3>
+                <p>Bachelor of Science, Information Technology</p>
+                <p>Graduation: May 2024</p>
+                <p>GPA: 3.5</p>
+                <p>Dean's List: Fall 2019, Fall 2020, Fall 2021, Spring 2021, Fall 2022, Spring 2023, Fall 2023</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-code"></i> Technical Skills</h2>
+        <div class="skills-cards">
+            <div class="skill-card">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <p>Java, C++, C#, Python, JavaScript, HTML, CSS, Kotlin, .NET, Dart, Swift, React, Ansible, Powershell, Google Go, AngularJS, ASP.NET</p>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-database"></i> Databases</h3>
+                <p>SQL Server, MySQL, Google Cloud, AWS, Microsoft Azure, Power BI, PostgreSQL, Amazon Redshift, Google BigQuery</p>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-desktop"></i> Systems</h3>
+                <p>Eclipse, Android Studio, Flutter, Visual Studio, Windows (Client & Server), iOS, CentOS, UNIX/Linux Command</p>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                <p>AD DS, VMs, RDS, AVD, Hubs, Routers, Switches, Ethernet, IP, LAN</p>
+            </div>
+        </div>
+    </section>
+    <section id="achievements" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-trophy"></i> Professional Achievements</h2>
+        <div class="achievement-cards">
+            <div class="achievement-card">
+                <h3>Led Nexus App Development</h3>
+                <p>Optimized student transportation and achieved a 20% cut in transit times for a user base of 10,000+ students.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Developed Savor Food Platform</h3>
+                <p>Enabled 500+ daily transactions and bolstered user retention by 30%.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Co-engineered 'Memrepo' App</h3>
+                <p>Improved language skills for over 2,000 users with a speech recognition feature that enhanced learning efficiency by 40%.</p>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+        <div class="experience-timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Resident Advisor</h3>
+                    <p>University of Cincinnati, Ohio</p>
+                    <p>August 2022 - May 2024</p>
+                    <ul>
+                        <li>Orchestrated check-in and check-out processes for a community of 1200 residents, ensuring a smooth transition and maintaining safety standards.</li>
+                        <li>Spearheaded safety and compliance initiatives, leading to a 15% improvement in dormitory safety audits.</li>
+                        <li>Facilitated peer-to-peer conflict mediation sessions, reducing incident reports by over 20%.</li>
+                    </ul>
+                    <div class="chart-container">
+                        <canvas id="advisorChart" class="chart-small"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Co-op, NSquair Air Conditioners</h3>
+                    <p>Gujarat, India</p>
+                    <p>May 2023 - July 2023</p>
+                    <ul>
+                        <li>Directed IT infrastructure enhancements, leading to a 20% increase in website uptime and user satisfaction.</li>
+                        <li>Coordinated inventory management initiatives, contributing to a 10% improvement in order fulfillment accuracy and speed.</li>
+                        <li>Implemented a new inventory tracking protocol, decreasing misplacement incidents by 15%.</li>
+                    </ul>
+                    <div class="chart-container">
+                        <canvas id="nsquairChart" class="chart-small"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Co-op, University of Cincinnati IT Integrated Services Help Desk</h3>
+                    <p>Cincinnati, OH</p>
+                    <p>May 2022 - July 2022</p>
+                    <ul>
+                        <li>Championed the development of IT service standards, resolving over 2000 IT issues and elevating customer service ratings by 25%.</li>
+                        <li>Primary contact for IT support, efficiently addressing and resolving 40+ daily inquiries, achieving a 95% customer satisfaction rate.</li>
+                        <li>Delivered comprehensive training sessions on software use and troubleshooting, increasing the efficiency of new staff onboarding by 50%.</li>
+                    </ul>
+                    <div class="chart-container">
+                        <canvas id="ucHelpDeskChart" class="chart-small"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Co-op, PlastoFab Engineering</h3>
+                    <p>Florida</p>
+                    <p>August 2020 - November 2020</p>
+                    <ul>
+                        <li>Collaborated on software updates, significantly reducing system vulnerabilities and optimizing performance.</li>
+                        <li>Engineered technical support solutions for a network of 100+ workstations, achieving a 98% issue resolution rate on first contact.</li>
+                    </ul>
+                    <div class="chart-container">
+                        <canvas id="plastoFabChart" class="chart-small"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-project-diagram"></i> Academic Projects</h2>
+        <div class="projects-cards">
+            <div class="project-card">
+                <h3>Nexus Senior Design</h3>
+                <p>August 2023 – April 2024</p>
+                <ul>
+                    <li>Led a 5-person team to develop the Nexus app optimizing student transportation.</li>
+                    <li>Achieved a 20% reduction in transit times for a user base of 10,000+ students.</li>
+                    <li>Designed and implemented key features including real-time tracking and route optimization.</li>
+                </ul>
+                <div class="chart-container">
+                    <canvas id="nexusChart" class="chart-small"></canvas>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Savor Food Web Development</h3>
+                <ul>
+                    <li>Developed a food ordering platform enabling 500+ daily transactions.</li>
+                    <li>Bolstered user retention by 30% through intuitive UI/UX design.</li>
+                    <li>Integrated secure payment gateways and real-time order tracking features.</li>
+                </ul>
+                <div class="chart-container">
+                    <canvas id="savorChart" class="chart-small"></canvas>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Memrepo Mobile Device Development</h3>
+                <ul>
+                    <li>Co-engineered 'Memrepo' app to aid over 2000 users in improving language skills.</li>
+                    <li>Implemented a speech recognition feature that enhanced learning efficiency by 40%.</li>
+                    <li>Worked on both front-end and back-end development to ensure seamless user experience.</li>
+                </ul>
+                <div class="chart-container">
+                    <canvas id="memrepoChart" class="chart-small"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="leadership" class="animate__animated animate__fadeInUp">
+        <h2><i class="fas fa-users"></i> Leadership & Involvement</h2>
+        <div class="leadership-prompt">
+            <p>🚀📚 Unveil My Journey:
+                Tap a card to dive into the story of my leadership adventures!👇✨👇🌟👇🔍👇 </p>
+        </div>
+        <div class="leadership-cards">
+            <div class="leadership-card" onclick="toggleDetails(this)">
+                <h3>President of UC Dramatic Arts of Thespians</h3>
+                <p>(2019 - Current)</p>
+                <div class="details">
+                    <ul>
+                        <li>Led a team of 15 members to organize 10+ successful events annually.</li>
+                        <li>Improved student engagement in the arts by 25% through innovative programming.</li>
+                        <li>Managed budgets and logistics for all events, ensuring smooth execution.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leadership-card" onclick="toggleDetails(this)">
+                <h3>Diploma in Acting from Actors Prepare by Anupam Kher</h3>
+                <p>(2022)</p>
+                <div class="details">
+                    <ul>
+                        <li>Completed a rigorous acting course under the guidance of renowned actor Anupam Kher.</li>
+                        <li>Enhanced public speaking and presentation skills.</li>
+                        <li>Applied acting techniques to improve personal and professional interactions.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leadership-card" onclick="toggleDetails(this)">
+                <h3>Member of University of Cincinnati Robotics</h3>
+                <p>(2022)</p>
+                <div class="details">
+                    <ul>
+                        <li>Contributed to the design and development of a robotic arm.</li>
+                        <li>Won second place in a national competition for innovative robotic solutions.</li>
+                        <li>Collaborated with a multidisciplinary team to solve complex engineering problems.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leadership-card" onclick="toggleDetails(this)">
+                <h3>Member of UC Piloting</h3>
+                <p>(2020)</p>
+                <div class="details">
+                    <ul>
+                        <li>Participated in pilot training programs and completed over 20 hours of flight simulation.</li>
+                        <li>Enhanced problem-solving and quick decision-making skills.</li>
+                        <li>Developed a deep understanding of aerodynamics and flight mechanics.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="github" class="animate__animated animate__fadeInUp">
+        <h2 style="display: flex; align-items: center; gap: 0.5rem; font-family: 'Montserrat', sans-serif;">
+            <i class="fab fa-github"></i> GitHub Repositories
+        </h2>
+        <p>Welcome to my GitHub section! Here, you can explore some of my key projects and contributions. Each repository showcases my skills in various technologies and problem-solving abilities.</p>
+
+        <div class="repository-cards">
+            <div class="repository-card">
+                <h3><a href="https://github.com/PruthviPatel/Nexus">Nexus Senior Design</a></h3>
+                <div class="language-usage">
+                    <span class="html" style="width: 52.5%;"></span>
+                    <span class="css" style="width: 27.9%;"></span>
+                    <span class="js" style="width: 19.6%;"></span>
+                </div>
+                <div class="language-labels">
+                    <span><i class="fas fa-circle html"></i> HTML 52.5%</span>
+                    <span><i class="fas fa-circle css"></i> CSS 27.9%</span>
+                    <span><i class="fas fa-circle js"></i> JavaScript 19.6%</span>
+                </div>
+                <p><strong>Description:</strong> An innovative application developed for our senior capstone project using React. Nexus aims to streamline communication and project management for teams, featuring real-time updates and collaborative tools.</p>
+                <p><strong>Technologies:</strong> <i class="fab fa-react"></i> React, <i class="fab fa-node"></i> Node.js, <i class="fas fa-database"></i> MongoDB, <i class="fas fa-comments"></i> Socket.io</p>
+                <p><strong>Highlights:</strong> Led a 5-person team, integrated advanced features such as real-time chat and task management, received excellent feedback from users and faculty.</p>
+                <pre class="code-snippet">
+                    <code class="language-javascript">
+// Sample code snippet from the Nexus project
+const express = require('express');
+const app = express();
+const http = require('http').createServer(app);
+const io = require('socket.io')(http);
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', (socket) => {
+    console.log('a user connected');
+    socket.on('disconnect', () => {
+        console.log('user disconnected');
+    });
+
+    // Real-time chat message handling
+    socket.on('chat message', (msg) => {
+        io.emit('chat message', msg);
+    });
+});
+
+http.listen(3000, () => {
+    console.log('listening on *:3000');
+});
+                    </code>
+                </pre>
+            </div>
+
+            <div class="repository-card">
+                <h3><a href="https://github.com/PruthviPatel/Savor">Savor Food Ordering Platform</a></h3>
+                <div class="language-usage">
+                    <span class="java" style="width: 45%;"></span>
+                    <span class="xml" style="width: 35%;"></span>
+                    <span class="js" style="width: 20%;"></span>
+                </div>
+                <div class="language-labels">
+                    <span><i class="fas fa-circle java"></i> Java 45%</span>
+                    <span><i class="fas fa-circle xml"></i> XML 35%</span>
+                    <span><i class="fas fa-circle js"></i> JavaScript 20%</span>
+                </div>
+                <p><strong>Description:</strong> A scalable Android application for food ordering, built to enhance user convenience with a seamless and intuitive interface. Savor allows users to browse menus, place orders, and track delivery status in real-time.</p>
+                <p><strong>Technologies:</strong> <i class="fab fa-java"></i> Java, <i class="fab fa-android"></i> Android Studio, <i class="fas fa-database"></i> Firebase, <i class="fas fa-map-marked-alt"></i> Google Maps API</p>
+                <p><strong>Highlights:</strong> Pioneered the design and development, improved user experience, integrated location-based services, gained significant user traction with positive reviews.</p>
+                <pre class="code-snippet">
+                    <code class="language-java">
+// Sample code snippet from the Savor project
+public class OrderActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_order);
+
+        // Initialize Firebase
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("orders");
+
+        // Add order to Firebase
+        myRef.push().setValue(order);
+
+        // Real-time order status update
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // Get updated order status
+                String status = dataSnapshot.child("status").getValue(String.class);
+                // Update UI with new status
+                TextView statusView = findViewById(R.id.order_status);
+                statusView.setText(status);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+                Log.w("OrderActivity", "Failed to read value.", error.toException());
+            }
+        });
+    }
+}
+                    </code>
+                </pre>
+            </div>
+
+            <div class="repository-card">
+                <h3><a href="https://github.com/PruthviPatel/Memrepo">Memrepo Mobile Device Development</a></h3>
+                <div class="language-usage">
+                    <span class="kotlin" style="width: 50%;"></span>
+                    <span class="flutter" style="width: 30%;"></span>
+                    <span class="firebase" style="width: 20%;"></span>
+                </div>
+                <div class="language-labels">
+                    <span><i class="fas fa-circle kotlin"></i> Kotlin 50%</span>
+                    <span><i class="fas fa-circle flutter"></i> Flutter 30%</span>
+                    <span><i class="fas fa-circle firebase"></i> Firebase 20%</span>
+                </div>
+                <p><strong>Description:</strong> A mobile application co-engineered to manage and share memories efficiently. Memrepo allows users to create, store, and share multimedia content, organized by events and timelines.</p>
+                <p><strong>Technologies:</strong> <i class="fas fa-code"></i> Kotlin, <i class="fab fa-flutter"></i> Flutter, <i class="fas fa-database"></i> SQLite, <i class="fab fa-google"></i> Firebase Storage</p>
+                <p><strong>Highlights:</strong> Co-engineered the app, implemented unique features like multimedia timelines and secure cloud storage, received positive user feedback for its intuitive design.</p>
+                <pre class="code-snippet">
+                    <code class="language-kotlin">
+// Sample code snippet from the Memrepo project
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Initialize Firebase
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("memories")
+
+        // Add memory to Firebase
+        myRef.push().setValue(memory)
+
+        // Real-time memory updates
+        myRef.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                // Get updated memory data
+                val memory = dataSnapshot.child("memory").getValue(Memory::class.java)
+                // Update UI with new memory
+                findViewById<TextView>(R.id.memory_view).text = memory?.text
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                // Failed to read value
+                Log.w("MainActivity", "Failed to read value.", error.toException());
+            }
+        })
+    }
+}
+                    </code>
+                </pre>
+            </div>
+
+            <div class="repository-card">
+                <h3><a href="https://github.com/PruthviPatel/WebGameFinal">WebGameFinal</a></h3>
+                <div class="language-usage">
+                    <span class="html" style="width: 50%;"></span>
+                    <span class="css" style="width: 30%;"></span>
+                    <span class="js" style="width: 20%;"></span>
+                </div>
+                <div class="language-labels">
+                    <span><i class="fas fa-circle html"></i> HTML 50%</span>
+                    <span><i class="fas fa-circle css"></i> CSS 30%</span>
+                    <span><i class="fas fa-circle js"></i> JavaScript 20%</span>
+                </div>
+                <p><strong>Description:</strong> A web-based game developed as a final project. WebGameFinal features engaging gameplay mechanics and interactive elements, providing an enjoyable user experience.</p>
+                <p><strong>Technologies:</strong> <i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> CSS, <i class="fab fa-js"></i> JavaScript, <i class="fab fa-js"></i> Phaser.js</p>
+                <p><strong>Highlights:</strong> Developed engaging gameplay, implemented interactive features, received positive feedback from users and peers for its creativity and design.</p>
+                <pre class="code-snippet">
+                    <code class="language-javascript">
+// Sample code snippet from the WebGameFinal project
+function startGame() {
+    let gameArea = document.getElementById("gameArea");
+    gameArea.innerHTML = "<h1>Welcome to WebGame!</h1><button onclick='playGame()'>Start</button>";
+}
+
+function playGame() {
+    // Game logic here
+    console.log("Game started!");
+    let score = 0;
+    const gameLoop = setInterval(() => {
+        // Update game state
+        score++;
+        console.log("Score: " + score);
+        if (score >= 10) {
+            clearInterval(gameLoop);
+            console.log("Game over!");
+            document.getElementById("gameArea").innerHTML = "<h1>Game Over! Your score: " + score + "</h1><button onclick='startGame()'>Restart</button>";
+        }
+    }, 1000);
+}
+                    </code>
+                </pre>
+            </div>
+        </div>
+
+        <section id="collaborations" class="animate__animated animate__fadeInUp">
+            <h2 style="text-align: center; color: #0056b3; font-family: 'Montserrat', sans-serif;"><i class="fas fa-handshake"></i> Collaborations and Contributions</h2>
+            <div class="collaborations-content" style="max-width: 800px; margin: 0 auto; background-color: #d7ebfc; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                <p style="font-size: 1.1rem; color: #333; line-height: 1.6;">
+                    I have also contributed to several open-source projects, such as <a href="https://github.com/OpenSourceProjectX" style="color: #007bff; text-decoration: none; font-weight: bold;">Open Source Project X</a>, where I:
+                </p>
+                <ul style="list-style: none; padding: 0; color: #333;">
+                    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                        <i class="fas fa-bug" style="color: #007bff; margin-right: 0.5rem;"></i> Fixed critical bugs and improved performance.
+                    </li>
+                    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                        <i class="fas fa-plus-circle" style="color: #007bff; margin-right: 0.5rem;"></i> Added new features that enhanced the project's functionality.
+                    </li>
+                    <li style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                        <i class="fas fa-code-branch" style="color: #007bff; margin-right: 0.5rem;"></i> Reviewed and merged pull requests from other contributors.
+                    </li>
+                </ul>
+            </div>
+        
+            <h2 style="text-align: center; color: #0056b3; font-family: 'Montserrat', sans-serif; margin-top: 2rem;"><i class="fas fa-bullhorn"></i> Call to Action</h2>
+            <div class="call-to-action-content" style="max-width: 800px; margin: 0 auto; background-color: #d7ebfc; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                <p style="font-size: 1.1rem; color: #333; line-height: 1.6;">
+                    🌟 Embark on a journey through my repositories, and if you find them captivating, don't hesitate to leave a star! ⭐ I'm always on the lookout for exciting collaborations 🤝. Let's join forces and create something extraordinary together! 🚀✨
+                </p>
+                <div class="cta-buttons" style="text-align: center; margin-top: 1rem;">
+                    <a href="https://github.com/PruthviPatel" class="button" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; margin: 5px; font-size: 16px;">Visit My GitHub</a>
+                    <a href="#contact" class="button" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; margin: 5px; font-size: 16px;">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="animate__animated animate__fadeInUp">
+            <h2 style="text-align: center; color: #0056b3; font-family: 'Montserrat', sans-serif;"><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-content" style="max-width: 800px; margin: 0 auto; background-color: #f9f9f9; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); text-align: center;">
+                <p style="font-size: 1.1rem; color: #333; line-height: 1.6;">
+                    <strong>Email:</strong> <a href="mailto:patel5pu@mail.uc.edu" style="color: #007bff; text-decoration: none;">patel5pu@mail.uc.edu</a>
+                </p>
+                <p style="font-size: 1.1rem; color: #333; line-height: 1.6;">
+                    <strong>Phone:</strong> (513) 837 3016
+                </p>
+            </div>
+        </section>        
+    <footer class="animate__animated animate__fadeInUp">
+        <p>&copy; 2024 Pruthvi Patel</p>
+    </footer>
+    <script>
+        // Mobile menu toggle script
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
